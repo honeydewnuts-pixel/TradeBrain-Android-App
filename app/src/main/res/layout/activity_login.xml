@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <TextView android:text="TradeBrain Login" android:textSize="24sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edtAccount" android:hint="MT4/MT5 Account Number"
+        android:inputType="number" android:layout_marginTop="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edtPassword" android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edtServer" android:hint="Server. Ex: Exness-Demo"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id/btnLogin" android:text="START TRADING"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
